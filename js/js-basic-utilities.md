@@ -4,9 +4,13 @@
 
 Press F12 and paste in cosnole
 
-```
-document.addEventListener('paste', function(e) {
-  e.stopImmediatePropagation();
-  return true;
-}, true);
+```js
+document.addEventListener(
+  "paste",
+  function (e) {
+    e.stopImmediatePropagation();
+    return true;
+  },
+  true
+);
 ```
