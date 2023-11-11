@@ -1,4 +1,4 @@
-# 40 most used commmands of day - LINUX
+# Useful commmands of day - LINUX
 
 ls - list directory items
 `ls`
