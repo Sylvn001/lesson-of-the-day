@@ -1,0 +1,23 @@
+# Bash script linux - how create and use 
+
+Open a folder and make a file with `.sh` extension
+nano (or touch) `nano hello_world.sh`
+
+the first line in every .bash script is `#!/bin/bash`
+`use # to create a optional comment with the explaination of what the command does`
+
+Finally, use the command `echo "Hello, World!`. This command will print in terminal the word "Hello, World!"
+
+in nano, you can save with the CTRL+X keyboard shortcut. 
+
+### Give the script executable permissions
+
+before the scriipt can be run, its must have executable permissions, use `chmod +x hello_world.sh`
+
+### Run the command
+to run your bash script, use the command
+`./hello_world.sh`
+
+The output of the command should be "Hello, World!"
+
+you can create any useful scripts with `.sh` for automatization
