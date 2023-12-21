@@ -21,3 +21,31 @@ to run your bash script, use the command
 The output of the command should be "Hello, World!"
 
 you can create any useful scripts with `.sh` for automatization
+
+
+### Create a useful bash script for backup scripts 
+- Create the script
+
+```
+    #!/bin/bash
+
+    # set variables for data, destination, and source
+
+    BACKUPDATE=`date +%b-%d-%y` 
+
+    DESTINATION=/media/USER/data/DOCUMENTS-$BACKUPDATE.tar.gz 
+
+    SOURCEFOLDER=/home/USER/Documents 
+
+    # the backup command
+
+    tar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
+```
+
+
+- Give the script executable permission 
+``chmod u+x backup.sh ``
+
+- Run script
+
+`` ./backup.sh ``
