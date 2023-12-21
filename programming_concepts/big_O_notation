@@ -1,0 +1,20 @@
+# Big O Notation
+
+[PT-BR]
+
+## Notação Big O e sua importancia
+
+> Notação BIG O é uma notação matématica que descreve o comportamento limitante de uma função quando o argumento tende a um valor específico aou infinito. ~~ Paul Bachmann, Edmund Landau, [...] - Wikipedia
+
+A notação tem como objetivo descrever a complexidade de algoritimos baseado em termos algébricos.
+
+N = representa o tamanho da entrada
+Função = Represesenta a ideia da complexidade do algoritimo em relação ao tamanho da entrada. Exemplo O(n²).
+
+- Selection Sort O(n²)
+- - O selection Sort é um algoritimo de ordenação por seleção, seu objetivo é iterar uma lista para garantir que cada indice
+
+```javascript
+{
+}
+```
