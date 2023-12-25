@@ -46,7 +46,15 @@ Como será a saida no console ao final da chamada? A resposta é:
 
 - Caso a pilha esteja lotada, será exibido o "Stack Overflow error", isto acontece pois o espaço de memoria reservado para a chamada de funções se esgotou.
 
-No exemplo do código, todas as funções são ignoradas até chegar na função "foo()". Em seguida
+No exemplo do código, todas as funções são ignoradas até chegar na função "foo()", está que é a primeira chamada de função no código escrito.
+
+- Foo() será chamada, o js armazena a função na pilha de chamadas (callstack) e o processo segue para todas as funções.
+- A função Foo() chama a função sayHi()
+- Por sua vez, sayHi() chama a função bye()
+- bye() é executada, não existe mais nenhuma chamada de função, então segue as instruções escrita no código da função e finaliza, após finalizar, ela é limpa da callstack e prossegue com a execução.
+- sayHi() executa o restante de seu código e finaliza
+- Por fim, foo() finaliza  a sua execução pois não há mais nenhum código em seguida.
+- O Código se encerra com foo() sendo limpada de sua callstack
 
 ### CallStack Execution
 
