@@ -36,6 +36,8 @@ Como será a saida no console ao final da chamada? A resposta é:
 
 ### Conceitos importantes quando falamos de call stack em javascript.
 
+- Javascript é single-threaded, ou seja, possui apenas uma unica callstack
+
 - Quando é feito uma chamada de uma função. Essa função será armazenada em uma pilha de chamadas, em seguida, a função é carregada.
 
 - Qualquer outra função a ser chamada por essa função será armazenada na pilha de chamadas, uma a cima da outra
@@ -45,6 +47,10 @@ Como será a saida no console ao final da chamada? A resposta é:
 - Caso a pilha esteja lotada, será exibido o "Stack Overflow error", isto acontece pois o espaço de memoria reservado para a chamada de funções se esgotou.
 
 No exemplo do código, todas as funções são ignoradas até chegar na função "foo()". Em seguida
+
+### CallStack Execution
+
+![Sem título](https://github.com/Sylvn001/lesson-of-the-day/assets/50564121/206580ff-05f0-447c-968c-098c8e4a83f4)
 
 ### Docs
 
