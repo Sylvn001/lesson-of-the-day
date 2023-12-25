@@ -50,7 +50,7 @@ No exemplo do código, todas as funções são ignoradas até chegar na função
 
 ### CallStack Execution
 
-![Sem título](https://github.com/Sylvn001/lesson-of-the-day/assets/50564121/206580ff-05f0-447c-968c-098c8e4a83f4)
+![callstack](https://github.com/Sylvn001/lesson-of-the-day/assets/50564121/a9563884-c4b1-450f-97fe-a8f1836591a4)
 
 ### Docs
 
