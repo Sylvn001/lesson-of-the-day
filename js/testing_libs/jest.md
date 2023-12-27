@@ -98,3 +98,39 @@ describe("Calculator", () => {
   });
 });
 ```
+
+View more in -> [jest_basic_matches.spec.ts](../app/__tests__/jest_basic_matches.spec.ts)
+
+You can use many matches for specific true or false test with jest
+
+- `toBeNull` #null === null = true
+- `toBeUndefined` #undefined === undefined = true
+- `toBeDefined` # opposite of undefined
+- `toBeTruthy` # true === true = true
+- `toBeFalsy` # false === false = ftrue
+
+### Numbers
+
+- `toBeGreaterThan(param)`
+- `toBeGreaterThanOrEqual(param)`
+- `toBeLessThan()`
+
+### Strings
+
+- You can use regex expression
+
+```js
+  test('não existe I em team', () => {
+  expect('team').not.toMatch(/I/);
+```
+
+### Async/await
+
+jest has compatibility with promises
+
+```js
+test("await the fetchData response", async () => {
+  const data = await fetchData(); // returns a promise
+  expect(data).toBe({});
+});
+```

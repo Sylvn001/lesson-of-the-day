@@ -2,7 +2,7 @@
 
 !!! &nbsp; How copy and paste into text fields in websites that block pasting?
 
-Press F12 and paste in cosnole
+Press F12 and paste in console
 
 ```js
 document.addEventListener(
