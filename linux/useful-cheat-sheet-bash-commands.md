@@ -1,5 +1,12 @@
 # Useful cheat sheet bash commands in linux
 
+## Alias 
+use alias in ~/.bashrc or ~/.zshrc files to improve commands 
+
+ex 
+
+`alias frfile = `
+
 ### Search for files recursively to find an expression
 `find . - type f -exec grep -l "expression to be find" {} \;`
 - `-l` option list the filenames only
