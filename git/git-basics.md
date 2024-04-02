@@ -24,6 +24,7 @@
 
 - `git help`
 - or use to especific command `git help add`
+- -i flag - interactive mode
 
 ### Branch & Merge
 
@@ -51,6 +52,15 @@
 - `git show [SHA]` - Show any object in git in human-readable format.
 
 ### Tracking Path Changes
+
+NOTE: HEAD~3 is the amount of commits can you throw back
+
+- `git reset --soft HEAD~3` - Reset all git commit changes whitout lost all changes in stage ('~' use number of head to go back)
+- `git reset --hard HEAD~3` - In the same case, you lost all changes of the three heads in github.
+
+`git rebase` -i HEAD~3 - git will enable you to change the last commits in interactive mode
+`git reset` -- FILENAME - To undo git add of stage files
+`git add -p` - divide two commits in the same file, or use others options
 
 ### Rewrite history
 
